@@ -1,13 +1,40 @@
-@media screen and (max-width: 1024px){
-    .fond_accueil{
+@media screen and (max-width: 1024px) {
+    .fond_accueil, .fond_metiers, .fond_cv {
         height: 50vh;
     }
-
-    .content_accueil{
+    .content {
         padding: 0;
     }
-
-    #scroll_up{
+    #scroll_up {
         z-index: -999;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .menu_hamburger {
+        display: block;
+    }
+    .menu_hamburger:hover {
+        cursor: pointer;
+    }
+    #menu_mobile {
+        display: none;
+        flex-direction: column;
+        padding-top: 15px;
+        margin-top: 15px;
+        border-top: 2px solid var(--dark-blue);
+    }
+    .menu_mobile div {
+        text-align: center;
+        padding: 15px 0px;
+    }
+    .menu_mobile a {
+        font-family: 'Lato', sans-serif;
+        text-decoration: none;
+        color: var(--dark-blue);
+        font-size: 1.2em;
+    }
+    .menu, .mon_nom {
+        display: none;
     }
 }

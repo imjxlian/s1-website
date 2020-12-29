@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>Projet de site</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/progress_bar.css">
     <!-- Importation des polices -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -25,12 +26,23 @@
                 <div class="menu">
                     <div><a href="index.html">Accueil</a></div>
                     <div><a href="metiers.html">Les métiers</a></div>
-                    <div class="underline_link"><a href="cv.html">Mon CV</a></div>
+                    <div class="underline_link"><a href="#">Mon CV</a></div>
                     <div><a href="poster.html">Notre poster</a></div>
                 </div>
                 <div class="mon_nom">
                     <a href="cv.html">Julian Forme</a>
                 </div>
+                <div class="menu_hamburger" id="hamburger">
+                    <div class="trait"></div>
+                    <div class="trait"></div>
+                    <div class="trait"></div>
+                </div>
+            </div>
+            <div class="menu_mobile" id="menu_mobile">
+                <div><a href="index.html">Accueil</a></div>
+                <div><a href="metiers.html">Les métiers</a></div>
+                <div><a class="underline_link" href="#">Mon CV</a></div>
+                <div><a href="poster.html">Notre poster</a></div>
             </div>
         </div>
     </header>
@@ -42,7 +54,7 @@
                 <a href="#cv"><input type="submit" name="submit-cv" value="Voir le CV"></a>
             </div>
         </div>
-        <div class="content_accueil" id="cv">
+        <div class="content" id="cv">
             <div class="text_accueil">
                 <div class="text_block">
                     <h2>Informations personnelles</h2>
@@ -54,9 +66,9 @@
                             <a
                                 href="https://www.google.fr/maps/place/13C+Cours+du+G%C3%A9n%C3%A9ral+de+Gaulle,+33170+Gradignan/@44.7878288,-0.6058982,18.25z/data=!4m5!3m4!1s0xd54d8a409d3f307:0xc4c2491376a75b14!8m2!3d44.7880692!4d-0.6069614"><img
                                     src="img/map-marker-icon.png" alt="Logo de localisation" class="cv_icons"></a>
-                            <a href="#cv" onclick="showHideTel()" id="button_tel"><img src="img/phone-icon.png"
-                                    alt="Logo de téléphone" class="cv_icons"></a>
-                            <a href="#cv" onclick="showHideMail()" id="button_mail"><img src="img/mail-icon.png"
+                            <a href="#cv" id="button_tel"><img src="img/phone-icon.png" alt="Logo de téléphone"
+                                    class="cv_icons"></a>
+                            <a href="#cv" id="button_mail"><img src="img/mail-icon.png"
                                     alt="Logo de courriel électronique" class="cv_icons"></a>
                             <div id="numero_tel">
                                 <p>+33 7 68 55 95 70</p>
@@ -132,48 +144,48 @@
                                 </div>
                             </div>
                             <h3>Mes compétences autres</h3>
-                    <div class="competences_content">
-                        <div class="level_block porcelaine">
-                            <p>Autonomie</p>
-                            <progress value="85" max="100"></progress>
-                            <p class="level_percent">85%</p>
-                        </div>
-                        <div class="level_block peche">
-                            <p>Organisation</p>
-                            <progress value="60" max="100"></progress>
-                            <p class="level_percent">60%</p>
-                        </div>
-                        <div class="level_block pink">
-                            <p>Travail d'équipe</p>
-                            <progress value="75" max="100"></progress>
-                            <p class="level_percent">75%</p>
-                        </div>
-                        <div class="level_block porcelaine">
-                            <p>Créativité</p>
-                            <progress value="50" max="100"></progress>
-                            <p class="level_percent">50%</p>
-                        </div>
-                        <div class="level_block peche">
-                            <p>Expression</p>
-                            <progress value="80" max="100"></progress>
-                            <p class="level_percent">80%</p>
-                        </div>
-                        <div class="level_block pink">
-                            <p>Français</p>
-                            <progress value="100" max="100"></progress>
-                            <p class="level_percent">100%</p>
-                        </div>
-                        <div class="level_block porcelaine">
-                            <p>Anglais</p>
-                            <progress value="85" max="100"></progress>
-                            <p class="level_percent">85%</p>
-                        </div>
-                        <div class="level_block peche">
-                            <p>Espagnol</p>
-                            <progress value="80" max="100"></progress>
-                            <p class="level_percent">80%</p>
-                        </div>
-                    </div>
+                            <div class="competences_content">
+                                <div class="level_block porcelaine">
+                                    <p>Autonomie</p>
+                                    <progress value="85" max="100"></progress>
+                                    <p class="level_percent">85%</p>
+                                </div>
+                                <div class="level_block peche">
+                                    <p>Organisation</p>
+                                    <progress value="60" max="100"></progress>
+                                    <p class="level_percent">60%</p>
+                                </div>
+                                <div class="level_block pink">
+                                    <p>Travail d'équipe</p>
+                                    <progress value="75" max="100"></progress>
+                                    <p class="level_percent">75%</p>
+                                </div>
+                                <div class="level_block porcelaine">
+                                    <p>Créativité</p>
+                                    <progress value="50" max="100"></progress>
+                                    <p class="level_percent">50%</p>
+                                </div>
+                                <div class="level_block peche">
+                                    <p>Expression</p>
+                                    <progress value="80" max="100"></progress>
+                                    <p class="level_percent">80%</p>
+                                </div>
+                                <div class="level_block pink">
+                                    <p>Français</p>
+                                    <progress value="100" max="100"></progress>
+                                    <p class="level_percent">100%</p>
+                                </div>
+                                <div class="level_block porcelaine">
+                                    <p>Anglais</p>
+                                    <progress value="85" max="100"></progress>
+                                    <p class="level_percent">85%</p>
+                                </div>
+                                <div class="level_block peche">
+                                    <p>Espagnol</p>
+                                    <progress value="80" max="100"></progress>
+                                    <p class="level_percent">80%</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -216,5 +228,7 @@
 </html>
 <!-- Importation du script pour scroller -->
 <script src="js/scroll_up.js"></script>
+<!-- Importation du script pour gérer le menu -->
+<script src="js/menu.js"></script>
 <!-- Importation du script pour montrer et cacher des éléments -->
 <script src="js/show_hide.js"></script>

@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>Projet de site</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <!-- Importation des polices -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
@@ -30,6 +31,17 @@
                 <div class="mon_nom">
                     <a href="cv.html">Julian Forme</a>
                 </div>
+                <div class="menu_hamburger" id="hamburger">
+                    <div class="trait"></div>
+                    <div class="trait"></div>
+                    <div class="trait"></div>
+                </div>
+            </div>
+            <div class="menu_mobile" id="menu_mobile">
+                <div><a href="index.html">Accueil</a></div>
+                <div><a class="underline_link" href="#">Les métiers</a></div>
+                <div><a href="cv.html">Mon CV</a></div>
+                <div><a href="poster.html">Notre poster</a></div>
             </div>
         </div>
     </header>
@@ -41,7 +53,7 @@
                 <a href="#métiers"><input type="submit" name="submit-cv" value="Voir les métiers"></a>
             </div>
         </div>
-        <div class="content_accueil" id="métiers">
+        <div class="content" id="métiers">
             <div class="text_accueil">
                 <div class="text_block">
                     <h2>Questionnaire professionnel</h2>
@@ -158,3 +170,5 @@
 </html>
 <!-- Importation du script pour scroller -->
 <script src="js/scroll_up.js"></script>
+<!-- Importation du script pour gérer le menu -->
+<script src="js/menu.js"></script>

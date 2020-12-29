@@ -118,6 +118,25 @@ header {
     font-size: 20px;
 }
 
+.menu_hamburger{
+    display: none;
+}
+
+.trait{
+    background-color: var(--dark-blue);
+    height: 6px;
+    width: 30px;
+    margin-bottom: 3px;
+}
+
+.menu_hamburger .trait:last-of-type{
+    margin: 0;
+}
+
+#menu_mobile{
+    display: none;
+}
+
 /* Fin header */
 
 /* Main */
@@ -168,12 +187,12 @@ header {
 
 .boite_accueil p:first-of-type, .boite_metiers p:first-of-type, .boite_cv p:first-of-type {
     margin-top: 0;
-    font-size: 35px;
+    font-size: 2em;
     font-weight: 500;
 }
 
 .boite_accueil p:nth-child(2), .boite_metiers p:nth-child(2), .boite_cv p:nth-child(2) {
-    font-size: 50px;
+    font-size: 2.5em;
     font-weight: 800;
     letter-spacing: 5px;
 }
@@ -206,7 +225,7 @@ header {
     transition: all ease 0.3s;
 }
 
-.content_accueil {
+.content {
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
