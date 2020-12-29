@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Projet de site</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Importation des polices -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Importation des icônes -->
+    <script src="https://kit.fontawesome.com/4fcbb80a6f.js" crossorigin="anonymous"></script>
+    <!-- Importation de jQuery (pour mon scroll)-->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="header_in">
+                <div class="logo">PROJET WEB</div>
+                <div class="menu">
+                    <div class="underline_link"><a href="#">Accueil</a></div>
+                    <div><a href="metiers.html">Les métiers</a></div>
+                    <div><a href="cv.html">Mon CV</a></div>
+                    <div><a href="poster.html">Notre poster</a></div>
+                </div>
+                <div class="mon_nom">
+                    <a href="cv.html">Julian Forme</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="fond_accueil">
+            <div class="boite_accueil">
+                <p>Bienvenue sur le site</p>
+                <p>PROJET WEB</p>
+                <a href="cv.html#cv"><input type="submit" name="submit-cv" value="Voir le CV"></a>
+            </div>
+        </div>
+        <div class="content_accueil">
+            <div class="text_accueil">
+                <div class="text_block">
+                    <h2>Pourquoi ce site ?</h2>
+                    <div class="text_content">
+                        <p>Ce site a été crée pour le projet web de fin de semestre 1 d'IUT Informatique. J'ai commencé à créer ce site le <span class="bold">mercredi 16 décembre 2020</span>. En plus de réaliser ce projet pour l'école, le fait de coder un site en entier m'a permis d'améliorer mes bases en programmation ainsi que d'apprendre quelques astuces pour rendre le site plus esthétique (notamment en CSS).</p>
+                        <img src="img/balise-icon.png" alt="Icône de chevrons">
+                    </div>
+                </div>
+                <div class="text_block">
+                    <h2>Que contient-t-il ?</h2>
+                    <div class="text_content">
+                        <div>
+                            <p>Sur ce site vous trouverez les pages suivantes :</p>
+                        <ul>
+                            <li>Une page d'accueil sur laquelle vous êtes actuellement</li>
+                            <li>Une page sur les métiers, sur laquelle vous trouverez :
+                                <ul>
+                                    <li>Le questionnaire professionnel réalisé en expression et communication</li>
+                                    <li>Un courriel type pour demander une interview</li>
+                                    <li>Une synthèse du métier de la personne interviewée</li>
+                                    <li>Une synthèse de l'interview</li>
+                                </ul>
+                            </li>
+                            <li>Une page contenant un CV sur laquelle il y a :
+                                <ul>
+                                    <li>Un formulaire de contact</li>
+                                    <li>Mes informations personnelles</li>
+                                    <li>Mes compétences en informatique</li>
+                                    <li>Ma formation et mon expérience</li>
+                                    <li>Les loisirs que je pratique</li>
+                                </ul>
+                            </li>
+                            <li>Une page contenant le poster que nous avons réalisé en expression et communication</li>
+                        </ul>
+                        </div>
+                        <img src="img/code-icon.png">
+                    </div>
+                </div>
+                <div class="text_block">
+                    <h2>L'avenir de celui-ci ?</h2>
+                    <div class="text_content">
+                        <p>Il est probable que ce site me serve de portfolio. Bien-sûr, il sera arrangé et certaines pages seront supprimées, d'autres ajoutées, mais le design devrait rester plus ou moins inchangé.</p>
+                        <img src="img/pin-icon.png" alt="Icône de punaise">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_content">
+            <div class="footer_in">
+                <div class="about_us">
+                    <h2>A propos</h2>
+                    <a href="tac.html"><p>Termes et Conditions</p></a>
+                    <a href="legalnotice.html"><p>Mentions Légales</p></a>
+                </div>
+                <div class="footer_social">
+                    <h2>Me contacter</h2>
+                    <div class="footer_contact">
+                        <input type="email" name="contact" placeholder="Ton adresse e-mail"
+                            onfocus="this.placeholder = ''" onblur="this.placeholder = 'Ton adresse e-mail'">
+                        <button><img src="img/checkmark.png" alt="Bouton de validation"></button>
+                    </div>
+                    <div class="footer_social_content">
+                        <a href=""><img src="img/facebook.png" alt="Facebook"></a>
+                        <a href="https://twitter.com/_jxln_"><img src="img/twitter.png" alt="Twitter"></a>
+                        <a href=""><img src="img/linkedin.png" alt="Linkedin"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_infos">
+            <p>2020 © Tous droits réservés</p>
+        </div>
+    </footer>
+    <div id="scroll_up">
+        <a href="#top"><i class="fas fa-angle-up"></i></a>
+    </div>
+</body>
+
+</html>
+<!-- Importation du script pour scroller -->
+<script src="js/scroll_up.js"></script>

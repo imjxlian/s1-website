@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Projet de site</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/progress_bar.css">
+    <!-- Importation des polices -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Importation des icônes -->
+    <script src="https://kit.fontawesome.com/4fcbb80a6f.js" crossorigin="anonymous"></script>
+    <!-- Importation de jQuery (pour mon scroll)-->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="header_in">
+                <div class="logo">PROJET WEB</div>
+                <div class="menu">
+                    <div><a href="index.html">Accueil</a></div>
+                    <div><a href="metiers.html">Les métiers</a></div>
+                    <div class="underline_link"><a href="cv.html">Mon CV</a></div>
+                    <div><a href="poster.html">Notre poster</a></div>
+                </div>
+                <div class="mon_nom">
+                    <a href="cv.html">Julian Forme</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="fond_cv">
+            <div class="boite_cv">
+                <p>Vous voulez en savoir plus ?</p>
+                <p>MON CV</p>
+                <a href="#cv"><input type="submit" name="submit-cv" value="Voir le CV"></a>
+            </div>
+        </div>
+        <div class="content_accueil" id="cv">
+            <div class="text_accueil">
+                <div class="text_block">
+                    <h2>Informations personnelles</h2>
+                    <div class="cv_content">
+                        <div class="cv_header">
+                            <img src="img/photo-moi.jpg" alt="Photo de moi" class="cv_photo">
+                            <h2>Julian Forme</h2>
+                            <hr>
+                            <a
+                                href="https://www.google.fr/maps/place/13C+Cours+du+G%C3%A9n%C3%A9ral+de+Gaulle,+33170+Gradignan/@44.7878288,-0.6058982,18.25z/data=!4m5!3m4!1s0xd54d8a409d3f307:0xc4c2491376a75b14!8m2!3d44.7880692!4d-0.6069614"><img
+                                    src="img/map-marker-icon.png" alt="Logo de localisation" class="cv_icons"></a>
+                            <a href="#cv" onclick="showHideTel()" id="button_tel"><img src="img/phone-icon.png"
+                                    alt="Logo de téléphone" class="cv_icons"></a>
+                            <a href="#cv" onclick="showHideMail()" id="button_mail"><img src="img/mail-icon.png"
+                                    alt="Logo de courriel électronique" class="cv_icons"></a>
+                            <div id="numero_tel">
+                                <p>+33 7 68 55 95 70</p>
+                            </div>
+                            <div id="mail">
+                                <p>julianforme24@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="cv_infos">
+                            <h3>Profil</h3>
+                            <p>J'ai commencé à taper mes premières lignes de codes à l'âge de 12 ans, aujourd'hui, je
+                                suis étudiant en IUT Informatique. Je souhaiterai pouvoir exercer un métier en rapport
+                                avec l'informatique, plutôt orienté sur le web.</p>
+                            <h3>Formations</h3>
+                            <ul>
+                                <li><span class="bold">2017</span> - Brevet des collèges</li>
+                                <li><span class="bold">2020</span> - Baccalauréat S mention bien (Lycée Arnaut Daniel,
+                                    Ribérac)</li>
+                            </ul>
+                            <h3>Expériences professionnelles</h3>
+                            <ul>
+                                <li><span class="bold">Décembre 2017</span> - Stage d'une semaine dans l'entreprise CGI
+                                    au Haillan</li>
+                            </ul>
+                            <h3>Loisirs</h3>
+                            <ul>
+                                <li>Tennis</li>
+                                <li>Programmation</li>
+                                <li>Jeux vidéos</li>
+                            </ul>
+                            <hr>
+                            <h3>Mes compétences informatiques</h3>
+                            <div class="competences_content">
+                                <div class="level_block red">
+                                    <p>HTML</p>
+                                    <progress value="90" max="100"></progress>
+                                    <p class="level_percent">90%</p>
+                                </div>
+                                <div class="level_block orange">
+                                    <p>CSS</p>
+                                    <progress value="70" max="100"></progress>
+                                    <p class="level_percent">70%</p>
+                                </div>
+                                <div class="level_block yellow">
+                                    <p>PHP</p>
+                                    <progress value="45" max="100"></progress>
+                                    <p class="level_percent">45%</p>
+                                </div>
+                                <div class="level_block turquoise">
+                                    <p>JavaScript</p>
+                                    <progress value="20" max="100"></progress>
+                                    <p class="level_percent">20%</p>
+                                </div>
+                                <div class="level_block green">
+                                    <p>Java</p>
+                                    <progress value="45" max="100"></progress>
+                                    <p class="level_percent">45%</p>
+                                </div>
+                                <div class="level_block blue">
+                                    <p>Photoshop</p>
+                                    <progress value="80" max="100"></progress>
+                                    <p class="level_percent">80%</p>
+                                </div>
+                                <div class="level_block darkblue">
+                                    <p>After Effects</p>
+                                    <progress value="35" max="100"></progress>
+                                    <p class="level_percent">35%</p>
+                                </div>
+                                <div class="level_block purple">
+                                    <p>Premiere Pro</p>
+                                    <progress value="50" max="100"></progress>
+                                    <p class="level_percent">50%</p>
+                                </div>
+                            </div>
+                            <h3>Mes compétences autres</h3>
+                    <div class="competences_content">
+                        <div class="level_block porcelaine">
+                            <p>Autonomie</p>
+                            <progress value="85" max="100"></progress>
+                            <p class="level_percent">85%</p>
+                        </div>
+                        <div class="level_block peche">
+                            <p>Organisation</p>
+                            <progress value="60" max="100"></progress>
+                            <p class="level_percent">60%</p>
+                        </div>
+                        <div class="level_block pink">
+                            <p>Travail d'équipe</p>
+                            <progress value="75" max="100"></progress>
+                            <p class="level_percent">75%</p>
+                        </div>
+                        <div class="level_block porcelaine">
+                            <p>Créativité</p>
+                            <progress value="50" max="100"></progress>
+                            <p class="level_percent">50%</p>
+                        </div>
+                        <div class="level_block peche">
+                            <p>Expression</p>
+                            <progress value="80" max="100"></progress>
+                            <p class="level_percent">80%</p>
+                        </div>
+                        <div class="level_block pink">
+                            <p>Français</p>
+                            <progress value="100" max="100"></progress>
+                            <p class="level_percent">100%</p>
+                        </div>
+                        <div class="level_block porcelaine">
+                            <p>Anglais</p>
+                            <progress value="85" max="100"></progress>
+                            <p class="level_percent">85%</p>
+                        </div>
+                        <div class="level_block peche">
+                            <p>Espagnol</p>
+                            <progress value="80" max="100"></progress>
+                            <p class="level_percent">80%</p>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_content">
+            <div class="footer_in">
+                <div class="about_us">
+                    <h2>A propos</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non convallis enim, at iaculis
+                        lectus. Morbi tempor malesuada magna a dignissim.</p>
+                </div>
+
+                <div class="footer_social">
+                    <h2>Me contacter</h2>
+                    <div class="footer_contact">
+                        <input type="email" name="contact" placeholder="Ton adresse e-mail"
+                            onfocus="this.placeholder = ''" onblur="this.placeholder = 'Ton adresse e-mail'">
+                        <button><img src="img/checkmark.png" alt="Bouton de validation"></button>
+                    </div>
+                    <div class="footer_social_content">
+                        <a href=""><img src="img/facebook.png" alt="Facebook" id="facebook"></a>
+                        <a href="https://twitter.com/_jxln_"><img src="img/twitter.png" alt="Twitter"></a>
+                        <a href=""><img src="img/linkedin.png" alt="Linkedin"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_infos">
+            <p>2020 © Tous droits réservés</p>
+        </div>
+    </footer>
+    <div id="scroll_up">
+        <a href="#top"><i class="fas fa-angle-up"></i></a>
+    </div>
+</body>
+
+</html>
+<!-- Importation du script pour scroller -->
+<script src="js/scroll_up.js"></script>
+<!-- Importation du script pour montrer et cacher des éléments -->
+<script src="js/show_hide.js"></script>

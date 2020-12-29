@@ -1,0 +1,239 @@
+.red {
+    background-color: #c0392b;
+}
+
+.orange {
+    background-color: #dd7009;
+}
+
+.yellow {
+    background-color: #f3bf12;
+}
+
+.turquoise {
+    background-color: #16a085;
+}
+
+.green {
+    background-color: #27ae60;
+}
+
+.blue {
+    background-color: #2980b9;
+}
+
+.darkblue {
+    background-color: #2c3e50;
+}
+
+.purple {
+    background-color: #8e44ad;
+}
+
+.pink {
+    background-color: #f368e0;
+}
+
+.peche{
+    background-color: #f19066;
+}
+
+.porcelaine{
+    background-color: #e66767;
+}
+
+.pink{
+    background-color: #f78fb3;
+}
+
+.level_block progress {
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.level_block progress[value]::-webkit-progress-value {
+    border-radius: 2px;
+}
+
+.red progress[value]::-webkit-progress-bar {
+    background-color: transparent;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.red progress[value]::-webkit-progress-value {
+    background-color: #e74c3c;
+}
+
+.red progress[value]::-moz-progress-bar {
+    background-color: transparent;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.orange progress[value]::-webkit-progress-bar {
+    background-color: transparent;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.orange progress[value]::-webkit-progress-value {
+    background-color: #e67e22;
+}
+
+.orange progress[value]::-moz-progress-bar {
+    background-color: transparent;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.yellow progress[value]::-webkit-progress-bar {
+    background-color: transparent;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.yellow progress[value]::-webkit-progress-value {
+    background-color: #fcd94f;
+}
+
+.yellow progress[value]::-moz-progress-bar {
+    background-color: transparent;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.turquoise progress[value]::-webkit-progress-bar {
+    background-color: transparent;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.turquoise progress[value]::-webkit-progress-value {
+    background-color: #1abc9c;
+}
+
+.turquoise progress[value]::-moz-progress-bar {
+    background-color: transparent;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.green progress[value]::-webkit-progress-bar {
+    background-color: transparent;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.green progress[value]::-webkit-progress-value {
+    background-color: #2ecc71;
+}
+
+.green progress[value]::-moz-progress-bar {
+    background-color: transparent;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.blue progress[value]::-webkit-progress-bar {
+    background-color: transparent;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.blue progress[value]::-webkit-progress-value {
+    background-color: #3498db;
+}
+
+.blue progress[value]::-moz-progress-bar {
+    background-color: transparent;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.darkblue progress[value]::-webkit-progress-bar {
+    background-color: transparent;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.darkblue progress[value]::-webkit-progress-value {
+    background-color: #34495e;
+}
+
+.darkblue progress[value]::-moz-progress-bar {
+    background-color: transparent;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.purple progress[value]::-webkit-progress-bar {
+    background-color: transparent;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.purple progress[value]::-webkit-progress-value {
+    background-color: #9b59b6;
+}
+
+.purple progress[value]::-moz-progress-bar {
+    background-color: transparent;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.pink progress[value]::-webkit-progress-bar {
+    background-color: transparent;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.pink progress[value]::-webkit-progress-value {
+    background-color:#ff9ff3;
+}
+
+.pink progress[value]::-moz-progress-bar {
+    background-color: transparent;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.peche progress[value]::-webkit-progress-bar {
+    background-color: transparent;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.peche progress[value]::-webkit-progress-value {
+    background-color: #f3a683;
+}
+
+.peche progress[value]::-moz-progress-bar {
+    background-color: transparent;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.porcelaine progress[value]::-webkit-progress-bar {
+    background-color: transparent;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.porcelaine progress[value]::-webkit-progress-value {
+    background-color: #ea8685;
+}
+
+.porcelaine progress[value]::-moz-progress-bar {
+    background-color: transparent;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.pink progress[value]::-webkit-progress-bar {
+    background-color: transparent;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.pink progress[value]::-webkit-progress-value {
+    background-color: #f8a5c2;
+}
+
+.pink progress[value]::-moz-progress-bar {
+    background-color: transparent;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+

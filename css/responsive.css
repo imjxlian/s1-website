@@ -1,0 +1,13 @@
+@media screen and (max-width: 1024px){
+    .fond_accueil{
+        height: 50vh;
+    }
+
+    .content_accueil{
+        padding: 0;
+    }
+
+    #scroll_up{
+        z-index: -999;
+    }
+}
