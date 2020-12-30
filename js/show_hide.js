@@ -1,5 +1,3 @@
-
-
 let button_tel = document.getElementById("button_tel");
 let button_mail = document.getElementById("button_mail");
 let numero_tel = document.getElementById("numero_tel");

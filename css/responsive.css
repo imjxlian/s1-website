@@ -1,9 +1,12 @@
+@media screen and (max-width: 1300px) {
+    .content {
+        padding: 0;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .fond_accueil, .fond_metiers, .fond_cv {
         height: 50vh;
-    }
-    .content {
-        padding: 0;
     }
     #scroll_up {
         z-index: -999;
@@ -41,6 +44,7 @@
         text-decoration: none;
         color: var(--dark-blue);
         font-size: 1.2em;
+        font-weight: bold;
     }
     .menu, .mon_nom {
         display: none;
