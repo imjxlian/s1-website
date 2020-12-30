@@ -41,6 +41,10 @@ input {
     font-weight: bold;
 }
 
+.center{
+    text-align: center;
+}
+
 /* CSS de mon bouton retour en haut de page */
 
 .fa-angle-up {
@@ -225,6 +229,12 @@ header {
     transition: all ease 0.3s;
 }
 
+.boite_accueil input:focus-within, .boite_metiers input:focus-within, .boite_cv input:focus-within{
+    background-color: var(--dark-blue);
+    color: var(--white);
+    border-radius: 0%;
+}
+
 .content {
     width: 100%;
     padding-top: 50px;
@@ -232,7 +242,7 @@ header {
     color: var(--blue);
 }
 
-.text_accueil {
+.text_accueil, .text_cv, .text_poster {
     background-color: white;
     margin: auto;
     padding: 50px 50px;
@@ -395,6 +405,35 @@ ul>li:last-of-type {
     letter-spacing: 1px;
     font-family: 'Lato', sans-serif;
     color: var(--white);
+}
+
+#poster{
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 50px;
+}
+
+.poster p:last-of-type{
+    text-align: center;
+    color: var(--dark-blue);
+    font-size: 1.3em;
+    text-decoration: underline;
+}
+
+.poster p:last-of-type:hover{
+    color: var(--dark-blue);
+    text-decoration: dashed;
+}
+
+.poster a{
+    text-decoration: none;
+}
+
+.poster a:active{
+    text-decoration: none;
 }
 
 /* Fin main */

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Projet de site</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/progress_bar.css">
+    <!-- Importation des polices -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Importation des icônes -->
+    <script src="https://kit.fontawesome.com/4fcbb80a6f.js" crossorigin="anonymous"></script>
+    <!-- Importation de jQuery (pour mon scroll)-->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="header_in">
+                <div class="logo">PROJET WEB</div>
+                <div class="menu">
+                    <div><a href="index.html">Accueil</a></div>
+                <div><a href="metiers.html">Les métiers</a></div>
+                <div><a href="cv.html">Mon CV</a></div>
+                <div class="underline_link" ><a href="#">Notre poster</a></div>
+                </div>
+                <div class="mon_nom">
+                    <a href="cv.html">Julian Forme</a>
+                </div>
+                <div class="menu_hamburger" id="hamburger">
+                    <div class="trait"></div>
+                    <div class="trait"></div>
+                    <div class="trait"></div>
+                </div>
+            </div>
+            <div class="menu_mobile" id="menu_mobile">
+                <div><a href="index.html">Accueil</a></div>
+                <div><a href="metiers.html">Les métiers</a></div>
+                <div><a href="cv.html">Mon CV</a></div>
+                <div><a class="underline_link" href="#">Notre poster</a></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="content">
+            <div class="text_cv">
+                <div class="text_block">
+                    <h2>Notre poster</h2>
+                    <div class="text_content_no_img poster">
+                        <p>Voici le poster que mon groupe et moi avons réalisé.</p>
+                        <img src="img/poster.png" alt="Poster" id="poster">
+                        <a href="img/poster.png"
+                        download="Poster"><p id="download_poster">Télécharger le poster</p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_content">
+            <div class="footer_in">
+                <div class="about_us">
+                    <h2>A propos</h2>
+                    <a href="tac.html">
+                        <p>Termes et Conditions</p>
+                    </a>
+                    <a href="legalnotice.html">
+                        <p>Mentions Légales</p>
+                    </a>
+                </div>
+                <div class="footer_social">
+                    <h2>Me contacter</h2>
+                    <div class="footer_contact">
+                        <input type="email" name="contact" placeholder="Ton adresse e-mail"
+                            onfocus="this.placeholder = ''" onblur="this.placeholder = 'Ton adresse e-mail'">
+                        <button><img src="img/checkmark.png" alt="Bouton de validation"></button>
+                    </div>
+                    <div class="footer_social_content">
+                        <a href=""><img src="img/facebook.png" alt="Facebook"></a>
+                        <a href="https://twitter.com/_jxln_"><img src="img/twitter.png" alt="Twitter"></a>
+                        <a href=""><img src="img/linkedin.png" alt="Linkedin"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_infos">
+            <p>2020 © Tous droits réservés</p>
+        </div>
+    </footer>
+    <div id="scroll_up">
+        <a href="#top"><i class="fas fa-angle-up"></i></a>
+    </div>
+</body>
+
+</html>
+<!-- Importation du script pour scroller -->
+<script src="js/scroll_up.js"></script>
+<!-- Importation du script pour gérer le menu -->
+<script src="js/menu.js"></script>
+<!-- Importation du script pour montrer et cacher des éléments -->
+<script src="js/show_hide.js"></script>

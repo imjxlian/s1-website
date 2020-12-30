@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Projet de site</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -140,14 +141,18 @@
             <div class="footer_in">
                 <div class="about_us">
                     <h2>A propos</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non convallis enim, at iaculis
-                        lectus. Morbi tempor malesuada magna a dignissim.</p>
+                    <a href="tac.html">
+                        <p>Termes et Conditions</p>
+                    </a>
+                    <a href="legalnotice.html">
+                        <p>Mentions Légales</p>
+                    </a>
                 </div>
-
                 <div class="footer_social">
                     <h2>Me contacter</h2>
                     <div class="footer_contact">
-                        <input type="email" name="contact" placeholder="Ton adresse e-mail">
+                        <input type="email" name="contact" placeholder="Ton adresse e-mail"
+                            onfocus="this.placeholder = ''" onblur="this.placeholder = 'Ton adresse e-mail'">
                         <button><img src="img/checkmark.png" alt="Bouton de validation"></button>
                     </div>
                     <div class="footer_social_content">

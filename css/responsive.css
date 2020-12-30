@@ -10,7 +10,22 @@
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
+    .boite_accueil, .boite_metiers, .boite_cv {
+        width: 100%;
+        padding: 0;
+    }
+    .boite_accueil p:first-of-type, .boite_metiers p:first-of-type, .boite_cv p:first-of-type {
+        margin-top: 0;
+        font-size: 1.5em;
+        font-weight: 500;
+    }
+    
+    .boite_accueil p:nth-child(2), .boite_metiers p:nth-child(2), .boite_cv p:nth-child(2) {
+        font-size: 2em;
+        font-weight: 800;
+        letter-spacing: 5px;
+    }
     .menu_hamburger {
         display: block;
     }
@@ -36,5 +51,29 @@
     }
     .menu, .mon_nom {
         display: none;
+    }
+    .fond_metiers{
+        background-color: red;
+    }
+    .img_active{
+        display: none;
+    }
+    .text_content{
+        display: block;
+    }
+    .text_content p{
+        max-width: 100%;
+    }
+    .text_cv{
+        padding: 50px 0;
+    }
+    .text_block h2{
+        text-align: center;
+    }
+    .footer_in{
+        flex-direction: column;
+    }
+    .cv_content{
+        border: none;
     }
 }
