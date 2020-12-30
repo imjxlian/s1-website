@@ -45,6 +45,14 @@ input {
     text-align: center;
 }
 
+.marge{
+    margin-left: 3em;
+}
+
+.big_p{
+    margin-top: 3em;
+}
+
 /* CSS de mon bouton retour en haut de page */
 
 .fa-angle-up {
@@ -137,8 +145,12 @@ header {
     margin: 0;
 }
 
-#menu_mobile{
+#menu_mobile {
     display: none;
+    flex-direction: column;
+    padding-top: 15px;
+    margin-top: 15px;
+    border-top: 2px solid var(--dark-blue);
 }
 
 /* Fin header */
@@ -416,14 +428,14 @@ ul>li:last-of-type {
     margin-top: 50px;
 }
 
-.poster p:last-of-type{
+#download_poster{
     text-align: center;
     color: var(--dark-blue);
     font-size: 1.3em;
     text-decoration: underline;
 }
 
-.poster p:last-of-type:hover{
+#download_poster:hover{
     color: var(--dark-blue);
     text-decoration: dashed;
 }
@@ -472,6 +484,10 @@ footer {
     color: var(--white);
     text-decoration: none;
     text-align: center;
+}
+
+.about_us a:hover{
+    text-decoration: underline;
 }
 
 .footer_social * {
@@ -529,10 +545,13 @@ footer {
 .footer_social_content img {
     height: 50px;
     transition: transform ease-out 0.2s;
+}
+
+.footer_social_content a{
     margin-left: 1em;
 }
 
-#facebook{
+.footer_social_content a:first-child{
     margin: 0;
 }
 

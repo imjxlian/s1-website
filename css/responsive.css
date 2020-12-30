@@ -32,13 +32,6 @@
     .menu_hamburger:hover {
         cursor: pointer;
     }
-    #menu_mobile {
-        display: none;
-        flex-direction: column;
-        padding-top: 15px;
-        margin-top: 15px;
-        border-top: 2px solid var(--dark-blue);
-    }
     .menu_mobile div {
         text-align: center;
         padding: 15px 0px;
@@ -51,9 +44,6 @@
     }
     .menu, .mon_nom {
         display: none;
-    }
-    .fond_metiers{
-        background-color: red;
     }
     .img_active{
         display: none;
@@ -75,5 +65,11 @@
     }
     .cv_content{
         border: none;
+    }
+    .poster p{
+        text-align: center;
+    }
+    .text_content_no_img h3{
+        text-align: center;
     }
 }
