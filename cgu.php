@@ -1,3 +1,8 @@
+<?php
+
+include('php/compteur_vues.php');
+
+?>
 <!DOCTYPE html>
 <html>
 
@@ -26,13 +31,13 @@
             <div class="header_in">
                 <div class="logo">PROJET WEB</div>
                 <div class="menu">
-                    <div><a href="index.html">Accueil</a></div>
-                    <div><a href="metiers.html">Les métiers</a></div>
-                    <div><a href="cv.html">Mon CV</a></div>
-                    <div><a href="poster.html">Notre poster</a></div>
+                    <div><a href="index">Accueil</a></div>
+                    <div><a href="metiers">Les métiers</a></div>
+                    <div><a href="cv">Mon CV</a></div>
+                    <div><a href="poster">Notre poster</a></div>
                 </div>
                 <div class="mon_nom">
-                    <a href="cv.html">Julian Forme</a>
+                    <a href="cv">Julian Forme</a>
                 </div>
                 <div class="menu_hamburger" id="hamburger">
                     <div class="trait"></div>
@@ -41,10 +46,10 @@
                 </div>
             </div>
             <div class="menu_mobile" id="menu_mobile">
-                <div><a href="index.html">Accueil</a></div>
-                <div><a href="metiers.html">Les métiers</a></div>
-                <div><a href="cv.html">Mon CV</a></div>
-                <div><a href="poster.html">Notre poster</a></div>
+                <div><a href="index">Accueil</a></div>
+                <div><a href="metiers">Les métiers</a></div>
+                <div><a href="cv">Mon CV</a></div>
+                <div><a href="poster">Notre poster</a></div>
             </div>
         </div>
     </header>
