@@ -76,4 +76,8 @@
     .text_content_no_img h3{
         text-align: center;
     }
+    .fond_accueil, .fond_metiers, .fond_cv{
+        background-attachment: local;
+        width: 100%;
+    }
 }
