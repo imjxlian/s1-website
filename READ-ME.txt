@@ -1,0 +1,6 @@
+Projet Web S1 - Julian Forme
+
+IMPORTANT : Les liens internes ne fonctionneront pas étant donné que les redirections sont de la forme: "index" au lieu de "index.html", tout ça grâce au .htaccess car le site est en ligne sur internet et consultable à l'adresse suivante : https://imjulian.fr
+
+Pour accedér à une page, il faut donc simplement ajouter ".html" dans la barre d'url.
+
